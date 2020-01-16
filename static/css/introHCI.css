@@ -1,24 +1,16 @@
 /* applies to anything of class "example-class-selector" */
- p {
+.example-class-selector {
 	margin-top: 2em;
-    font-variant: small-caps;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
-.project p{
+.example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	
-    margin-left: 20px;
-    background-color: #deebf7;
-    padding: 20px;
-    width:525px;
-    color: #CC00AA;
+	color: #CC00AA;
 }
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
-
-
 body {
      border: 1px dotted gray;
      padding: 20px;
@@ -41,4 +33,21 @@ body {
      z-index: -1;	
 }
 
+p{
+    font-variant: small-caps;
+}
 
+.project p{
+    font-variant: small-caps;
+}
+
+#project1{
+    font-variant:small-caps;
+}
+
+.project{
+    margin-left: 20px;
+    background-color: #deebf7;
+    padding: 20px;
+    width:525px;
+}
